@@ -31,3 +31,4 @@ function divide(input1: number, input2: number): number {
 function getRandomNumbers(min: number = 0, max: number): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+console.log(add(2, 3));
