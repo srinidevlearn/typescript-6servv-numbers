@@ -11,3 +11,23 @@ let num1 = 1;
 let num2: number = 1;
 num2 = 3;
 console.log(num2);
+
+function add(input1: number, input2: number): number {
+  return input1 + input2;
+}
+
+function sub(input1: number, input2: number): number {
+  return input1 + input2;
+}
+
+function mul(input1: number, input2: number): number {
+  return input1 + input2;
+}
+
+function divide(input1: number, input2: number): number {
+  return input1 + input2;
+}
+
+function getRandomNumbers(min: number = 0, max: number): number {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
