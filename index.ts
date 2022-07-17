@@ -32,3 +32,14 @@ function getRandomNumbers(min: number = 0, max: number): number {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 console.log(add(2, 3));
+
+interface ICalc {
+  input1: number;
+  input2: number;
+  add: Function;
+  mul: Function;
+  sub: Function;
+  divide: Function;
+}
+
+// const calc: ICalc = {};
